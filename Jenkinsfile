@@ -7,6 +7,7 @@ pipeline{
 		stage('Build'){
 			steps{
 				echo "Building the code"
+				echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
 				bat 'mvn --version'
 			}
 			
@@ -27,10 +28,10 @@ pipeline{
 	post {
     		always {
       			 testNG()
-			 emailext body: "from jenkins"
-			 to: "ramyapn95@gmail.com"
-                         subject: "Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
-			 replyTo:"yogeshkucv123@gmail.com"
+			 //emailext body: "from jenkins"
+			 //to: "ramyapn95@gmail.com"
+                        // subject: "Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+			// replyTo:"yogeshkucv123@gmail.com"
     		}
   	}
 }
