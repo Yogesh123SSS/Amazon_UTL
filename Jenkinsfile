@@ -32,7 +32,7 @@ pipeline{
 			 mail to: "ramyapn95@gmail.com",
                          subject: "Test Email",
                          body: "Test"
-			 attachLog: true
+			 
     		}
   	}
 }
