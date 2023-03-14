@@ -16,7 +16,7 @@ pipeline{
 		stage('Test'){
 			steps{
 				echo "Testing the code" 
-				//bat "mvn test"
+				bat "mvn test"
 			}
 		}
 		stage('compile'){
@@ -32,6 +32,7 @@ pipeline{
 			 mail to: "ramyapn95@gmail.com",
                          subject: "Test Email",
                          body: "Test"
+			 attachLog: true
     		}
   	}
 }
