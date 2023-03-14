@@ -27,6 +27,9 @@ pipeline{
 	post {
     		always {
       			testNG()
+			 emailext to: "ramyapn95@gmail.com",
+                         subject: "Test Email",
+                         body: "Test"
     		}
   	}
 }
