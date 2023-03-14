@@ -29,7 +29,7 @@ pipeline{
     		always {
       			testNG()
 			 emailext to: "ramyapn95@gmail.com",
-			 attachmentsPattern: 'test-output/emailable-report.html,test-output/testng-results.xml',
+			 attachmentsPattern: 'target/surefire-reports/emailable-report.html,target/surefire-reports/testng-results.xml',
                          subject: "Jenkins:Test Report",
 			 body: '${BUILD_URL}:${BUILD_NUMBER}'  
     		}
