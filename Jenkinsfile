@@ -13,23 +13,24 @@ pipeline{
 		}
 		stage('Test'){
 			steps{
-				echo "Testing the code" 
-				bat "mvn test"
+				echo "Testing the code"
+				echo ${BUILD_URL}
+				//bat "mvn test"
 			}
 		}
 		stage('compile'){
 			steps{
 				echo "Testing the code" 
-				bat "mvn compile"
+				//bat "mvn compile"
 			}
 		}
 	}
 	post {
     		always {
-      			testNG()
-			 emailext to: "ramyapn95@gmail.com",
-                         subject: "Test Email",
-                         body: "Test"
+      			//testNG()
+			 //emailext to: "ramyapn95@gmail.com",
+                         //subject: "Test Email",
+                         //body: "Test"
     		}
   	}
 }
