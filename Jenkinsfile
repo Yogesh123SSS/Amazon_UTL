@@ -11,27 +11,27 @@ pipeline{
 			}
 			
 		}
+		stage('Compile'){
+			steps{
+				echo "Testing the code" 
+				bat "mvn compile"
+			}
+		}
 		stage('Test'){
 			steps{
 				echo "Testing the code"
-				echo "${BUILD_URL}"
-				//bat "mvn test"
+				bat "mvn test"
 			}
 		}
-		stage('compile'){
-			steps{
-				echo "Testing the code" 
-				//bat "mvn compile"
-			}
-		}
+		
 	}
 	post {
     		always {
       			testNG()
 			 emailext to: "ramyapn95@gmail.com",
-			 attachmentsPattern: '**/emailable-report.html',
+			 attachmentsPattern: 'test-output/emailable-report.html,test-output/testng-results.xml',
                          subject: "Jenkins:Test Report",
-			 body: '"${BUILD_URL}":"${BUILD_NUMBER}"'  
+			 body: '${BUILD_URL}:${BUILD_NUMBER}'  
     		}
   	}
 }
