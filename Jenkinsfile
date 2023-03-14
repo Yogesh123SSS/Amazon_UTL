@@ -20,17 +20,16 @@ pipeline{
 		stage('compile'){
 			steps{
 				echo "Testing the code" 
-		//		bat "mvn compile"
+				bat "mvn compile"
 			}
 		}
 	}
 	post {
     		always {
-      		//	testNG()
-			 emailext body: "Test",
-			to: "ramyapn95@gmail.com",
-                         subject: "Test Email",
-                         
+      			 testNG()
+			 emailext body: "Please go to ${env.BUILD_URL}.
+			 to: "ramyapn95@gmail.com"
+                         subject: "Job '${env.JOB_NAME}' (${env.BUILD_NUMBER}) is waiting for input",
 			 replyTo:"yogeshkucv123@gmail.com"
     		}
   	}
