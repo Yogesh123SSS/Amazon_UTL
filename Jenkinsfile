@@ -14,7 +14,7 @@ pipeline{
 		stage('Test'){
 			steps{
 				echo "Testing the code"
-				echo ${BUILD_URL}
+				echo "${BUILD_URL}"
 				//bat "mvn test"
 			}
 		}
