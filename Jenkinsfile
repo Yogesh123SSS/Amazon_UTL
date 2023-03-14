@@ -27,9 +27,9 @@ pipeline{
 	post {
     		always {
       			 testNG()
-			 emailext body: "Please go to ${env.BUILD_URL}.
+			 emailext body: "from jenkins"
 			 to: "ramyapn95@gmail.com"
-                         subject: "Job '${env.JOB_NAME}' (${env.BUILD_NUMBER}) is waiting for input",
+                         subject: "Job ${env.JOB_NAME} ${env.BUILD_NUMBER} is waiting for input",
 			 replyTo:"yogeshkucv123@gmail.com"
     		}
   	}
