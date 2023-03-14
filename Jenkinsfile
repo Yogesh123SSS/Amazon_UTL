@@ -11,12 +11,12 @@ pipeline{
 			}
 			
 		}
-		//stage('Test'){
-		//	steps{
-		//		echo "Testing the code" 
-		//		bat "mvn test"
+		stage('Test'){
+			steps{
+				echo "Testing the code" 
+				//bat "mvn test"
 			}
-		//}
+		}
 		stage('compile'){
 			steps{
 				echo "Testing the code" 
