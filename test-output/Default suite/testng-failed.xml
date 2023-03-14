@@ -5,9 +5,13 @@
     <classes>
       <class name="amazontest.NavigationMenuTestCases">
         <methods>
+          <include name="verifySellNavigationMenuPage"/>
           <include name="beforeConfiguration"/>
           <include name="afterConfiguration"/>
+          <include name="verifyRegistryNavigationMenu"/>
           <include name="verifyCustomerServiceNavigationMenupage"/>
+          <include name="verifyTodaysDealNavigationMenuPage"/>
+          <include name="verifyHomePage"/>
         </methods>
       </class> <!-- amazontest.NavigationMenuTestCases -->
     </classes>
