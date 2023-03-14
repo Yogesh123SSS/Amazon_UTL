@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="7" failed="1" skipped="2">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[PASS ::  Amazon home page is displayed]]>
@@ -8,28 +8,10 @@
       <![CDATA[PASS ::  Amazon home page is displayed]]>
     </line>
     <line>
-      <![CDATA[PASS ::  Amazon home page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[PASS ::  Amazon home page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[PASS ::  Todays deal page is displayed]]>
-    </line>
-    <line>
       <![CDATA[PASS ::  Todays deal page is displayed]]>
     </line>
     <line>
       <![CDATA[PASS ::  Amazon home page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[PASS ::  Amazon home page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[PASS ::  Customer Service  page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[PASS ::  Customer Service  page is displayed]]>
     </line>
     <line>
       <![CDATA[PASS ::  Amazon home page is displayed]]>
@@ -40,13 +22,16 @@
     <line>
       <![CDATA[PASS ::  Amazon home page is displayed]]>
     </line>
+    <line>
+      <![CDATA[PASS ::  Registry page is displayed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-02-26T15:40:15 IST" name="Suite" finished-at="2023-02-26T15:45:28 IST" duration-ms="313346">
+  <suite started-at="2023-03-15T01:01:32 IST" name="Smoke" finished-at="2023-03-15T01:06:34 IST" duration-ms="302033">
     <groups>
     </groups>
-    <test started-at="2023-02-26T15:40:15 IST" name="firefox1" finished-at="2023-02-26T15:43:48 IST" duration-ms="212810">
+    <test started-at="2023-03-15T01:01:32 IST" name="Test" finished-at="2023-03-15T01:06:34 IST" duration-ms="302033">
       <class name="amazontest.NavigationMenuTestCases">
-        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:40:15 IST" name="beforeConfiguration" finished-at="2023-02-26T15:40:54 IST" duration-ms="39056" status="PASS">
+        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:01:32 IST" name="beforeConfiguration" finished-at="2023-03-15T01:02:59 IST" duration-ms="87186" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,18 +42,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeConfiguration -->
-        <test-method signature="verifyHomePage()[pri:1, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:40:54 IST" name="verifyHomePage" finished-at="2023-02-26T15:41:32 IST" duration-ms="37832" status="PASS">
+        <test-method signature="verifyHomePage()[pri:1, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:02:59 IST" name="verifyHomePage" finished-at="2023-03-15T01:03:20 IST" duration-ms="20658" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[PASS ::  Amazon home page is displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyHomePage -->
-        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:41:32 IST" name="afterConfiguration" finished-at="2023-02-26T15:41:44 IST" duration-ms="12166" status="PASS">
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:03:20 IST" name="afterConfiguration" finished-at="2023-03-15T01:03:35 IST" duration-ms="14686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterConfiguration -->
-        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:41:44 IST" name="beforeConfiguration" finished-at="2023-02-26T15:42:18 IST" duration-ms="34216" status="PASS">
+        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:03:35 IST" name="beforeConfiguration" finished-at="2023-03-15T01:04:09 IST" duration-ms="34253" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeConfiguration -->
-        <test-method signature="verifyTodaysDealNavigationMenuPage()[pri:2, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:42:18 IST" name="verifyTodaysDealNavigationMenuPage" finished-at="2023-02-26T15:42:29 IST" duration-ms="10436" status="PASS">
+        <test-method signature="verifyTodaysDealNavigationMenuPage()[pri:2, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:04:09 IST" name="verifyTodaysDealNavigationMenuPage" finished-at="2023-03-15T01:04:27 IST" duration-ms="17779" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[PASS ::  Amazon home page is displayed]]>
@@ -89,11 +74,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyTodaysDealNavigationMenuPage -->
-        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:42:29 IST" name="afterConfiguration" finished-at="2023-02-26T15:42:46 IST" duration-ms="17080" status="PASS">
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:04:27 IST" name="afterConfiguration" finished-at="2023-03-15T01:04:39 IST" duration-ms="12742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterConfiguration -->
-        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:42:46 IST" name="beforeConfiguration" finished-at="2023-02-26T15:43:18 IST" duration-ms="32249" status="PASS">
+        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:04:39 IST" name="beforeConfiguration" finished-at="2023-03-15T01:05:02 IST" duration-ms="22051" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,383 +89,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeConfiguration -->
-        <test-method signature="verifyCustomerServiceNavigationMenupage()[pri:3, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:43:18 IST" name="verifyCustomerServiceNavigationMenupage" finished-at="2023-02-26T15:43:22 IST" duration-ms="3636" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[PASS ::  Amazon home page is displayed]]>
-            </line>
-            <line>
-              <![CDATA[PASS ::  Customer Service  page is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyCustomerServiceNavigationMenupage -->
-        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:43:22 IST" name="afterConfiguration" finished-at="2023-02-26T15:43:48 IST" duration-ms="25951" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5da02382-a6a8-4982-a6ef-6fb25ac488cb, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:processID: 8484, moz:profile: C:\Users\MOON\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5da02382-a6a8-4982-a6ef-6fb25ac488cb]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5da02382-a6a8-4982-a6ef-6fb25ac488cb, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:processID: 8484, moz:profile: C:\Users\MOON\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5da02382-a6a8-4982-a6ef-6fb25ac488cb
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:132)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:445)
-at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:323)
-at com.amazon.orgname.genericutilities.BaseClass.afterConfiguration(BaseClass.java:42)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:831)
-Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: driver.version: unknown
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-... 33 more
-Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: driver.version: unknown
-at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:181)
-at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:119)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:122)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterConfiguration -->
-        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:43:48 IST" name="beforeConfiguration" finished-at="2023-02-26T15:43:48 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeConfiguration -->
-        <test-method signature="verifyRegistryNavigationMenu()[pri:4, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:43:48 IST" name="verifyRegistryNavigationMenu" finished-at="2023-02-26T15:43:48 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5da02382-a6a8-4982-a6ef-6fb25ac488cb, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:processID: 8484, moz:profile: C:\Users\MOON\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5da02382-a6a8-4982-a6ef-6fb25ac488cb]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5da02382-a6a8-4982-a6ef-6fb25ac488cb, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:processID: 8484, moz:profile: C:\Users\MOON\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5da02382-a6a8-4982-a6ef-6fb25ac488cb
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:132)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:445)
-at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:323)
-at com.amazon.orgname.genericutilities.BaseClass.afterConfiguration(BaseClass.java:42)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:831)
-Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: driver.version: unknown
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-... 33 more
-Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: driver.version: unknown
-at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:181)
-at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:119)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:122)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegistryNavigationMenu -->
-        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:43:48 IST" name="afterConfiguration" finished-at="2023-02-26T15:43:48 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterConfiguration -->
-        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:43:48 IST" name="beforeConfiguration" finished-at="2023-02-26T15:43:48 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeConfiguration -->
-        <test-method signature="verifySellNavigationMenuPage()[pri:5, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:43:48 IST" name="verifySellNavigationMenuPage" finished-at="2023-02-26T15:43:48 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5da02382-a6a8-4982-a6ef-6fb25ac488cb, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:processID: 8484, moz:profile: C:\Users\MOON\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5da02382-a6a8-4982-a6ef-6fb25ac488cb]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5da02382-a6a8-4982-a6ef-6fb25ac488cb, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:processID: 8484, moz:profile: C:\Users\MOON\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5da02382-a6a8-4982-a6ef-6fb25ac488cb
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:132)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:445)
-at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:323)
-at com.amazon.orgname.genericutilities.BaseClass.afterConfiguration(BaseClass.java:42)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:831)
-Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: driver.version: unknown
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-... 33 more
-Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: driver.version: unknown
-at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:181)
-at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:119)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:122)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySellNavigationMenuPage -->
-        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-02-26T15:43:48 IST" name="afterConfiguration" finished-at="2023-02-26T15:43:48 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterConfiguration -->
-      </class> <!-- amazontest.NavigationMenuTestCases -->
-    </test> <!-- firefox1 -->
-    <test started-at="2023-02-26T15:40:15 IST" name="firefox2" finished-at="2023-02-26T15:45:28 IST" duration-ms="313345">
-      <class name="amazontest.NavigationMenuTestCases">
-        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:40:15 IST" name="beforeConfiguration" finished-at="2023-02-26T15:40:55 IST" duration-ms="40163" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeConfiguration -->
-        <test-method signature="verifyHomePage()[pri:1, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:40:55 IST" name="verifyHomePage" finished-at="2023-02-26T15:41:32 IST" duration-ms="36826" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[PASS ::  Amazon home page is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyHomePage -->
-        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:41:32 IST" name="afterConfiguration" finished-at="2023-02-26T15:41:44 IST" duration-ms="11976" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterConfiguration -->
-        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:41:44 IST" name="beforeConfiguration" finished-at="2023-02-26T15:42:13 IST" duration-ms="29363" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeConfiguration -->
-        <test-method signature="verifyTodaysDealNavigationMenuPage()[pri:2, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:42:13 IST" name="verifyTodaysDealNavigationMenuPage" finished-at="2023-02-26T15:42:42 IST" duration-ms="28362" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[PASS ::  Amazon home page is displayed]]>
-            </line>
-            <line>
-              <![CDATA[PASS ::  Todays deal page is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyTodaysDealNavigationMenuPage -->
-        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:42:42 IST" name="afterConfiguration" finished-at="2023-02-26T15:42:52 IST" duration-ms="10339" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterConfiguration -->
-        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:42:52 IST" name="beforeConfiguration" finished-at="2023-02-26T15:43:13 IST" duration-ms="21208" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeConfiguration -->
-        <test-method signature="verifyCustomerServiceNavigationMenupage()[pri:3, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:43:13 IST" name="verifyCustomerServiceNavigationMenupage" finished-at="2023-02-26T15:43:21 IST" duration-ms="7594" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[PASS ::  Amazon home page is displayed]]>
-            </line>
-            <line>
-              <![CDATA[PASS ::  Customer Service  page is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyCustomerServiceNavigationMenupage -->
-        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:43:21 IST" name="afterConfiguration" finished-at="2023-02-26T15:43:37 IST" duration-ms="15878" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterConfiguration -->
-        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:43:37 IST" name="beforeConfiguration" finished-at="2023-02-26T15:43:57 IST" duration-ms="20358" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeConfiguration -->
-        <test-method signature="verifyRegistryNavigationMenu()[pri:4, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:43:57 IST" name="verifyRegistryNavigationMenu" finished-at="2023-02-26T15:44:09 IST" duration-ms="11862" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[PASS ::  Amazon home page is displayed]]>
-            </line>
-            <line>
-              <![CDATA[PASS ::  Registry page is displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyRegistryNavigationMenu -->
-        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:44:09 IST" name="afterConfiguration" finished-at="2023-02-26T15:44:24 IST" duration-ms="14999" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterConfiguration -->
-        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:44:24 IST" name="beforeConfiguration" finished-at="2023-02-26T15:44:55 IST" duration-ms="30796" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeConfiguration -->
-        <test-method signature="verifySellNavigationMenuPage()[pri:5, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:44:55 IST" name="verifySellNavigationMenuPage" finished-at="2023-02-26T15:45:11 IST" duration-ms="15835" status="FAIL">
+        <test-method signature="verifyCustomerServiceNavigationMenupage()[pri:3, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:05:02 IST" name="verifyCustomerServiceNavigationMenupage" finished-at="2023-03-15T01:05:39 IST" duration-ms="37359" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath:  //span[@class='a-button-inner']/input[@data-action-type='DISMISS']' (tried for 15 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[Expected condition failed: waiting for title to be "Help - Amazon Customer Service". Current title: "Help & Contact Us - Amazon Customer Service" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:processID: 1964, moz:profile: C:\Users\MOON\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8072976-a141-48ac-99cf-1efbf2831310]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath:  //span[@class='a-button-inner']/input[@data-action-type='DISMISS']' (tried for 15 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be "Help - Amazon Customer Service". Current title: "Help & Contact Us - Amazon Customer Service" (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:processID: 1964, moz:profile: C:\Users\MOON\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8072976-a141-48ac-99cf-1efbf2831310
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at com.amazon.orgname.genericutilities.WebDriverUtility.visibilityOfElement(WebDriverUtility.java:50)
-at amazontest.NavigationMenuTestCases.verifySellNavigationMenuPage(NavigationMenuTestCases.java:99)
+at com.amazon.orgname.genericutilities.WebDriverUtility.titleVerification(WebDriverUtility.java:26)
+at amazontest.NavigationMenuTestCases.verifyCustomerServiceNavigationMenupage(NavigationMenuTestCases.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -497,44 +126,18 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:831)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element:  //span[@class='a-button-inner']/input[@data-action-type='DISMISS']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ca3950cd-92d6-446b-a1d5-1337889d0c83, findElement {using=xpath, value= //span[@class='a-button-inner']/input[@data-action-type='DISMISS']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:processID: 8416, moz:profile: C:\Users\MOON\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ca3950cd-92d6-446b-a1d5-1337889d0c83
-at jdk.internal.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-... 24 more
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
@@ -543,12 +146,62 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
               <![CDATA[PASS ::  Amazon home page is displayed]]>
             </line>
           </reporter-output>
+        </test-method> <!-- verifyCustomerServiceNavigationMenupage -->
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:05:39 IST" name="afterConfiguration" finished-at="2023-03-15T01:05:43 IST" duration-ms="3650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfiguration -->
+        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:05:43 IST" name="beforeConfiguration" finished-at="2023-03-15T01:05:57 IST" duration-ms="14308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfiguration -->
+        <test-method signature="verifyRegistryNavigationMenu()[pri:4, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:05:57 IST" name="verifyRegistryNavigationMenu" finished-at="2023-03-15T01:06:00 IST" duration-ms="3103" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS ::  Amazon home page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[PASS ::  Registry page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRegistryNavigationMenu -->
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:06:00 IST" name="afterConfiguration" finished-at="2023-03-15T01:06:07 IST" duration-ms="6539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfiguration -->
+        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:06:07 IST" name="beforeConfiguration" finished-at="2023-03-15T01:06:19 IST" duration-ms="12509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfiguration -->
+        <test-method signature="verifySellNavigationMenuPage()[pri:5, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:06:19 IST" name="verifySellNavigationMenuPage" finished-at="2023-03-15T01:06:29 IST" duration-ms="9998" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS ::  Amazon home page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[PASS ::  Registry page is displayed]]>
+            </line>
+          </reporter-output>
         </test-method> <!-- verifySellNavigationMenuPage -->
-        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@74ea2410]" started-at="2023-02-26T15:45:11 IST" name="afterConfiguration" finished-at="2023-02-26T15:45:28 IST" duration-ms="17659" status="PASS">
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@4b8ee4de]" started-at="2023-03-15T01:06:29 IST" name="afterConfiguration" finished-at="2023-03-15T01:06:34 IST" duration-ms="5093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterConfiguration -->
       </class> <!-- amazontest.NavigationMenuTestCases -->
-    </test> <!-- firefox2 -->
-  </suite> <!-- Suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Smoke -->
 </testng-results>
