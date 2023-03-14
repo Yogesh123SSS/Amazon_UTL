@@ -29,6 +29,7 @@ pipeline{
     		always {
       			testNG()
 			 emailext to: "ramyapn95@gmail.com",
+			 attachmentsPattern: "**/testng-results.xml"
                          subject: "${BUILD_URL}",
                          body: "Test"
     		}
