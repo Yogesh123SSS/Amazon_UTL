@@ -64,10 +64,3 @@
     </plugins>
   </build>
 </project>
-
-<!-- <suiteXmlFiles>
-     pass testng.xml files as argument from command line
-    <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
-</suiteXmlFiles>
-mvn clean test -Dsurefire.suiteXmlFiles=/path/to/testng.xml-->
-
