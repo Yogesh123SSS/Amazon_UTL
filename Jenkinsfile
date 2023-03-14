@@ -30,8 +30,8 @@ pipeline{
       			testNG()
 			 emailext to: "ramyapn95@gmail.com",
 			 attachmentsPattern: '**/emailable-report.html',
-                         subject: "${BUILD_URL}",
-                         body: "Test"
+                         subject: "Jenkins:Test Report",
+			 body: '"${BUILD_URL}":"${BUILD_NUMBER}"'  
     		}
   	}
 }
