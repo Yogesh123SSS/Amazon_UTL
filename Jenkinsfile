@@ -8,6 +8,7 @@ pipeline{
 			steps{
 				echo "Building the code"
 				echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+				echo "Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'"
 				bat 'mvn --version'
 			}
 			
