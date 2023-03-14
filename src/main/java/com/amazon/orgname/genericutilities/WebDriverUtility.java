@@ -22,7 +22,7 @@ public void implictWait(WebDriver driver) {
 	 * @return Boolean
 	 */
 public Boolean titleVerification(WebDriver driver, String expectedTitle) {
-	WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+	WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
 	Boolean titlevalidation = wait.until(ExpectedConditions.titleIs(expectedTitle));
 	return titlevalidation;
 }
@@ -46,7 +46,7 @@ public Boolean urlVerification(WebDriver driver,String urlFraction) {
  * @return WebElement
  */
 public WebElement visibilityOfElement(WebDriver driver,WebElement element) {
-	WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(15));
+	WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
 	WebElement visibleElement = wait.until(ExpectedConditions.visibilityOf(element));
 	return visibleElement; 
 }
