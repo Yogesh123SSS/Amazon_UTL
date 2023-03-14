@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="amazontest.NavigationMenuTestCases">
+        <methods>
+          <include name="beforeConfiguration"/>
+          <include name="afterConfiguration"/>
+          <include name="verifyCustomerServiceNavigationMenupage"/>
+        </methods>
+      </class> <!-- amazontest.NavigationMenuTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

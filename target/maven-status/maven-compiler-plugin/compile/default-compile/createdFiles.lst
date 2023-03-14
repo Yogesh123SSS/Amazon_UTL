@@ -1,0 +1,9 @@
+com\amazon\orgname\pomrepository\CustomerServicePage.class
+com\amazon\orgname\pomrepository\SellPage.class
+com\amazon\orgname\genericutilities\ExcelUtility.class
+com\amazon\orgname\pomrepository\TodayDealPage.class
+com\amazon\orgname\genericutilities\FileUtility.class
+com\amazon\orgname\pomrepository\AmazonHomePage.class
+com\amazon\orgname\genericutilities\BaseClass.class
+com\amazon\orgname\genericutilities\WebDriverUtility.class
+com\amazon\orgname\pomrepository\RegistryPage.class

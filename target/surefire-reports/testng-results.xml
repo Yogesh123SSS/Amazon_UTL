@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[PASS ::  Amazon home page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[PASS ::  Amazon home page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[PASS ::  Todays deal page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[PASS ::  Amazon home page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[PASS ::  Amazon home page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[PASS ::  Registry page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[PASS ::  Amazon home page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[PASS ::  Registry page is displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-10T21:40:06 IST" name="Smoke" finished-at="2023-03-10T21:45:16 IST" duration-ms="309051">
+    <groups>
+    </groups>
+    <test started-at="2023-03-10T21:40:06 IST" name="Test" finished-at="2023-03-10T21:45:16 IST" duration-ms="309051">
+      <class name="amazontest.NavigationMenuTestCases">
+        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:40:07 IST" name="beforeConfiguration" finished-at="2023-03-10T21:40:53 IST" duration-ms="46083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfiguration -->
+        <test-method signature="verifyHomePage()[pri:1, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:40:53 IST" name="verifyHomePage" finished-at="2023-03-10T21:41:11 IST" duration-ms="18421" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS ::  Amazon home page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:41:11 IST" name="afterConfiguration" finished-at="2023-03-10T21:41:26 IST" duration-ms="15182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfiguration -->
+        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:41:26 IST" name="beforeConfiguration" finished-at="2023-03-10T21:41:49 IST" duration-ms="23219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfiguration -->
+        <test-method signature="verifyTodaysDealNavigationMenuPage()[pri:2, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:41:49 IST" name="verifyTodaysDealNavigationMenuPage" finished-at="2023-03-10T21:42:14 IST" duration-ms="24900" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS ::  Amazon home page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[PASS ::  Todays deal page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTodaysDealNavigationMenuPage -->
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:42:14 IST" name="afterConfiguration" finished-at="2023-03-10T21:42:22 IST" duration-ms="7853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfiguration -->
+        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:42:22 IST" name="beforeConfiguration" finished-at="2023-03-10T21:43:08 IST" duration-ms="45646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfiguration -->
+        <test-method signature="verifyCustomerServiceNavigationMenupage()[pri:3, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:43:08 IST" name="verifyCustomerServiceNavigationMenupage" finished-at="2023-03-10T21:43:25 IST" duration-ms="16774" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath:  //span[@class='a-button-inner']/input[@data-action-type='DISMISS']' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath:  //span[@class='a-button-inner']/input[@data-action-type='DISMISS']' (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.amazon.orgname.genericutilities.WebDriverUtility.visibilityOfElement(WebDriverUtility.java:50)
+at amazontest.NavigationMenuTestCases.verifyCustomerServiceNavigationMenupage(NavigationMenuTestCases.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element:  //span[@class='a-button-inner']/input[@data-action-type='DISMISS']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [640ce025-448f-4191-8510-efd726663fa8, findElement {using=xpath, value= //span[@class='a-button-inner']/input[@data-action-type='DISMISS']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:processID: 13932, moz:profile: C:\Users\MOON\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 640ce025-448f-4191-8510-efd726663fa8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[PASS ::  Amazon home page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerServiceNavigationMenupage -->
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:43:25 IST" name="afterConfiguration" finished-at="2023-03-10T21:43:35 IST" duration-ms="10319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfiguration -->
+        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:43:35 IST" name="beforeConfiguration" finished-at="2023-03-10T21:43:53 IST" duration-ms="17627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfiguration -->
+        <test-method signature="verifyRegistryNavigationMenu()[pri:4, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:43:53 IST" name="verifyRegistryNavigationMenu" finished-at="2023-03-10T21:43:58 IST" duration-ms="5446" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS ::  Amazon home page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[PASS ::  Registry page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRegistryNavigationMenu -->
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:43:58 IST" name="afterConfiguration" finished-at="2023-03-10T21:44:08 IST" duration-ms="9207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfiguration -->
+        <test-method is-config="true" signature="beforeConfiguration(java.lang.String)[pri:0, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:44:08 IST" name="beforeConfiguration" finished-at="2023-03-10T21:44:36 IST" duration-ms="28753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfiguration -->
+        <test-method signature="verifySellNavigationMenuPage()[pri:5, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:44:36 IST" name="verifySellNavigationMenuPage" finished-at="2023-03-10T21:45:00 IST" duration-ms="23804" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS ::  Amazon home page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[PASS ::  Registry page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySellNavigationMenuPage -->
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:amazontest.NavigationMenuTestCases@21de60b4]" started-at="2023-03-10T21:45:00 IST" name="afterConfiguration" finished-at="2023-03-10T21:45:16 IST" duration-ms="15432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfiguration -->
+      </class> <!-- amazontest.NavigationMenuTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Smoke -->
+</testng-results>

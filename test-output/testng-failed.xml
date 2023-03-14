@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="amazontest.NavigationMenuTestCases">
+        <methods>
+          <include name="verifySellNavigationMenuPage"/>
+          <include name="beforeConfiguration"/>
+          <include name="afterConfiguration"/>
+          <include name="verifyRegistryNavigationMenu"/>
+          <include name="verifyCustomerServiceNavigationMenupage"/>
+          <include name="verifyHomePage"/>
+          <include name="verifyTodaysDealNavigationMenuPage"/>
+        </methods>
+      </class> <!-- amazontest.NavigationMenuTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

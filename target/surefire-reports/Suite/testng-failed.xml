@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="firefoxtest(failed)" verbose="0">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="amazontest.NavigationMenuTestCases">
+        <methods>
+          <include name="beforeConfiguration"/>
+          <include name="verifySellNavigationMenuPage"/>
+          <include name="afterConfiguration"/>
+          <include name="verifyRegistryNavigationMenu"/>
+          <include name="verifyCustomerServiceNavigationMenupage"/>
+          <include name="verifyTodaysDealNavigationMenuPage"/>
+        </methods>
+      </class> <!-- amazontest.NavigationMenuTestCases -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
