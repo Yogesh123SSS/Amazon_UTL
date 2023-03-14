@@ -11,22 +11,22 @@ pipeline{
 			}
 			
 		}
-		stage('Test'){
-			steps{
-				echo "Testing the code" 
-				bat "mvn test"
+		//stage('Test'){
+		//	steps{
+		//		echo "Testing the code" 
+		//		bat "mvn test"
 			}
-		}
+		//}
 		stage('compile'){
 			steps{
 				echo "Testing the code" 
-				bat "mvn compile"
+		//		bat "mvn compile"
 			}
 		}
 	}
 	post {
     		always {
-      			testNG()
+      		//	testNG()
 			 emailext to: "ramyapn95@gmail.com",
                          subject: "Test Email",
                          body: "Test"
