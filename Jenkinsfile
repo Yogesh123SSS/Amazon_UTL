@@ -29,10 +29,6 @@ pipeline{
 	post {
     		always {
       			 testNG()
-                        subject: "Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'"}
-			emailext body: "from jenkins"
-			to: "ramyapn95@gmail.com"
-		         replyTo:"yogeshkucv123@gmail.com"
     		}
   	}
 
