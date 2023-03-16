@@ -27,4 +27,19 @@ public class ExcelUtility {
 		String celldata = workBook.getSheet(sheetName).getRow(row).getCell(cell).getStringCellValue();
 		return celldata;
 	}
+	/**
+	 * @author Yogesh K U
+	 * @param sheetName
+	 * @param row
+	 * @param cell
+	 * @return double
+	 * @throws EncryptedDocumentException
+	 * @throws IOException
+	 */
+	public int readIntDataFromExcl(String sheetName,int row,int cell) throws EncryptedDocumentException, IOException {
+		FileInputStream fis=new FileInputStream("./src/test/resources/AmazonTestData.xlsx");
+		Workbook workbook=WorkbookFactory.create(fis);
+		double celldata=workbook.getSheet(sheetName).getRow(row).getCell(cell).getNumericCellValue();
+		return (int)celldata;
+	}
 }
