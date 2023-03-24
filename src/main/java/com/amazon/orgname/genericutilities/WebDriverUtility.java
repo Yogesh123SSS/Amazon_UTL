@@ -46,7 +46,7 @@ public Boolean urlVerification(WebDriver driver,String urlFraction) {
  * @return WebElement
  */
 public WebElement visibilityOfElement(WebDriver driver,WebElement element) {
-	WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
+	WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(30));
 	WebElement visibleElement = wait.until(ExpectedConditions.visibilityOf(element));
 	return visibleElement; 
 }
