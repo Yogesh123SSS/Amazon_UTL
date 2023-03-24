@@ -1,9 +1,7 @@
 package com.amazon.orgname.genericutilities;
-
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriver.Options;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -23,11 +21,12 @@ public class BaseClass {
 	@Parameters("browserName")
 	public void beforeConfiguration(String browserName) throws IOException, InterruptedException {
 		//Here data is reading and supplying from TestNG suite file parameterization
-		//String browserName = fileUtils.readDataFromPropertyFile("Browser");
+	   // String browserName = fileUtils.readDataFromPropertyFile("Browser");
 		if(browserName.equals("Chrome")) {
 		ChromeOptions	options=new ChromeOptions();
 		options.addArguments("--profile-directory=Default");
 		options.addArguments("--disable-blink-features=AutomationControlled");
+		options.addArguments("--disable-notifications");
 			driver = new ChromeDriver(options);
 		} else if( browserName.equals("Firefox")) {
 			driver = new FirefoxDriver();
