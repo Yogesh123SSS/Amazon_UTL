@@ -126,7 +126,7 @@ public class NavigationMenuTestCases extends BaseClass {
 	List<WebElement> list = home.getAutosujjestionList();
 	System.out.println(list.size());
 	Assert.assertEquals(list.size(), excelUtils.readIntDataFromExcl("amazontestdata", 10, 1), "Autosujjestion count is");
-	Reporter.log("PASS: Count Of AutoSujjestions found correct and vaerified");
+	Reporter.log("PASS: Count Of AutoSujjestions found correct and varified");
 	for (WebElement singleSujjestion : list) {
 		Reporter.log( "AutoSuggestion printing ------"+singleSujjestion.getText());
 	}
