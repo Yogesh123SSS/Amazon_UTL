@@ -17,7 +17,7 @@ import com.amazon.orgname.pomrepository.RegistryPage;
 import com.amazon.orgname.pomrepository.SellPage;
 import com.amazon.orgname.pomrepository.TodayDealPage;
 public class NavigationMenuTestCases extends BaseClass {
-	@Test(priority = 01)
+	@Test(groups={"SmokeTesting"})
 	public void verifyHomePage() throws EncryptedDocumentException, FileNotFoundException, IOException {
 		
 		if(webDriverUtils.titleVerification(driver, excelUtils.readStringDataFromExcel("amazontestdata", 0, 1))&&webDriverUtils.urlVerification(driver, excelUtils.readStringDataFromExcel("amazontestdata",1, 1))) {
@@ -27,7 +27,7 @@ public class NavigationMenuTestCases extends BaseClass {
 			Reporter.log("FAIL :: Amazon home page is not displayed");
 		}
 	}
-	@Test
+	@Test(groups={"SmokeTesting"})
 	public	void verifyTodaysDealNavigationMenuPage() throws EncryptedDocumentException, FileNotFoundException, IOException {
 		
 		if(webDriverUtils.titleVerification(driver, excelUtils.readStringDataFromExcel("amazontestdata", 0, 1))&&webDriverUtils.urlVerification(driver, excelUtils.readStringDataFromExcel("amazontestdata",1, 1))) {
@@ -50,7 +50,7 @@ public class NavigationMenuTestCases extends BaseClass {
 		Reporter.log("FAIL :: Todays deal page is not displayed");
 	}
 	}	
-	@Test
+	@Test(groups={"SmokeTesting"})
 	public void verifyCustomerServiceNavigationMenupage() throws EncryptedDocumentException, FileNotFoundException, IOException {
 	
 		if(webDriverUtils.titleVerification(driver, excelUtils.readStringDataFromExcel("amazontestdata", 0, 1))&&webDriverUtils.urlVerification(driver, excelUtils.readStringDataFromExcel("amazontestdata",1, 1))) {
@@ -72,7 +72,7 @@ public class NavigationMenuTestCases extends BaseClass {
 			Reporter.log("FAIL :: Customer Service page is not displayed");
 		}
 	}
-	@Test
+	@Test(groups={"SmokeTesting"})
 	public void verifyRegistryNavigationMenu() throws EncryptedDocumentException, FileNotFoundException, IOException {
 		if(webDriverUtils.titleVerification(driver, excelUtils.readStringDataFromExcel("amazontestdata", 0, 1))&&webDriverUtils.urlVerification(driver, excelUtils.readStringDataFromExcel("amazontestdata",1, 1))) {
 			Reporter.log("PASS ::  Amazon home page is displayed");
@@ -93,7 +93,7 @@ public class NavigationMenuTestCases extends BaseClass {
 			Reporter.log("FAIL :: Registry page is not displayed");
 		}
 	}
-	@Test
+	@Test(groups={"SmokeTesting"})
 	public void verifySellNavigationMenuPage() throws EncryptedDocumentException, FileNotFoundException, IOException {
 		if(webDriverUtils.titleVerification(driver, excelUtils.readStringDataFromExcel("amazontestdata", 0, 1))&&webDriverUtils.urlVerification(driver, excelUtils.readStringDataFromExcel("amazontestdata",1, 1))) {
 			Reporter.log("PASS ::  Amazon home page is displayed");
@@ -114,14 +114,17 @@ public class NavigationMenuTestCases extends BaseClass {
 		}
 	}
 	@Test
-	public void verifyListOfAutosujjestinInSearchTest() throws EncryptedDocumentException, FileNotFoundException, IOException {
+	public void verifyListOfAutosujjestinInSearchTest() throws EncryptedDocumentException, FileNotFoundException, IOException, InterruptedException {
+	webDriverUtils.implictWait(driver);
 	Assert.assertEquals(webDriverUtils.titleVerification(driver, excelUtils.readStringDataFromExcel("amazontestdata", 0, 1)), true, "Expected title is");
 	Reporter.log("PASS ::  Amazon home page is displayed");
 	AmazonHomePage home=new AmazonHomePage(driver);
 	webDriverUtils.visibilityOfElement(driver, home.getDontChangeButton());//Explicit Wait
 	home.getDontChangeButton().click();
 	home.getAmazonSearchBox().click();
+	//Thread.sleep(10000);
 	List<WebElement> list = home.getAutosujjestionList();
+	System.out.println(list.size());
 	Assert.assertEquals(list.size(), excelUtils.readIntDataFromExcl("amazontestdata", 10, 1), "Autosujjestion count is");
 	Reporter.log("PASS: Count Of AutoSujjestions found correct and vaerified");
 	for (WebElement singleSujjestion : list) {

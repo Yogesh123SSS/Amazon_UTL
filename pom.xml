@@ -58,8 +58,11 @@
                         <suiteXmlFile>
                             suite.xml
                         </suiteXmlFile>
+                         <suiteXmlFile>
+                            smokeSuite.xml
+                        </suiteXmlFile>
                     </suiteXmlFiles>
-        </configuration>
+        </configuration> 
       </plugin>
     </plugins>
   </build>
