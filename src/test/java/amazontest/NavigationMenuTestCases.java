@@ -130,6 +130,7 @@ public class NavigationMenuTestCases extends BaseClass {
 	Reporter.log("AutoSujjestion list is -----");
 	for (WebElement singleSujjestion : list) {
 		Reporter.log( "AutoSuggestions ------"+singleSujjestion.getText());
+		//Reporter.log( "AutoSuggestions list  ------"+singleSujjestion.getText());
 	}
 	Reporter.log("List of autosujjestions are printed  ");
 	}
